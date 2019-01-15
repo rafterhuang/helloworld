@@ -48,6 +48,10 @@ public class helloworld {
 		for (TrafficLight tl : tls) {
 			System.out.println("Light:" + tl.name() + "\tAction: " + tl.getAction());
 		}
+		
+		InheritanceExample ie = new InheritanceExample();
+		Sub sb = new Sub();
+		
 		System.out.println("JVM shutdown!");
 	}
 

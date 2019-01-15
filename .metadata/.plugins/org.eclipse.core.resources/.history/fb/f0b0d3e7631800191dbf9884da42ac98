@@ -1,0 +1,12 @@
+package helloworld;
+
+enum TrafficLight {
+	red("stop"), green("go"), yellow("wait");
+	
+	private String action;
+	
+	private TrafficLight(String action) {
+		this.action = action;
+	}
+
+}

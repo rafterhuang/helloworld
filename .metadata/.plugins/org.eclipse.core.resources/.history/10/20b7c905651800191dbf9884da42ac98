@@ -1,0 +1,17 @@
+package helloworld;
+
+enum TrafficLight {
+	red("stop"), green("go"), yellow("wait");
+	
+	private String action;
+	
+	//Parameterized constructor for enum, private!
+	private trafficlight(String action) {
+		this.action = action;
+	}
+	
+	public String getAction() {
+		return this.action;
+	}
+
+}

@@ -1,0 +1,6 @@
+package helloworld;
+
+enum TrafficLight {
+	red("stop"), green("go"), yellow("wait")
+
+}

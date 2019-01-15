@@ -1,0 +1,26 @@
+package helloworld;
+
+import java.util.*;
+import java.util.stream.IntStream;
+
+public class helloworld {
+	public static void main(String args[]) {
+		System.out.println("helloworld");
+		Test test = new Test ();
+		Class cl = test.getClass();
+		System.out.println(cl.getName());
+		System.out.println(Arrays.toString(cl.getDeclaredMethods()));
+		System.out.println(Arrays.toString(cl.getMethods()));
+	}
+
+}
+
+class Test {
+	int i;
+	public void testOne() {
+		
+	}
+	public void testTwo() {
+		
+	}
+}

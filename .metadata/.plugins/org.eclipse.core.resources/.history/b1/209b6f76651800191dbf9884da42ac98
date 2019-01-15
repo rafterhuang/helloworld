@@ -1,0 +1,11 @@
+package helloworld;
+
+class test {
+	int i;
+	public void testOne() {
+		
+	}
+	public void testTwo() {
+		
+	}
+}

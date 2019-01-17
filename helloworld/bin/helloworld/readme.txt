@@ -33,3 +33,7 @@ A variable declared inside pair of brackets ¡°{¡± and ¡°}¡± in a method has scop
             System.out.println(x); 
         } 
 
+
+Array vs ArrayList is similar to String vs StringBuffer/StringBuilder
+The front is fixed and cannot be changed.
+The later is changeable and manipulatable, for ex: add/push, change 

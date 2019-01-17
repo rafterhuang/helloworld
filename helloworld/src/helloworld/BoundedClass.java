@@ -60,7 +60,7 @@ public class BoundedClass
 		Bound<A> bea = new Bound<A>(new A()); 
 		bea.doRunTest(); 
 		
-		Bound<String> bes = new Bound<String>(new String()); 
-		bea.doRunTest(); 
+		//Bound<String> bes = new Bound<String>(new String()); 
+		//bea.doRunTest(); 
 	} 
 } 

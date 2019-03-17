@@ -1,0 +1,27 @@
+package test;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class test1 {
+	public static void main(String[] args) throws IOException {
+		System.out.println(System.getProperty("user.dir"));
+		//Read a file and string, do manipulation
+		String file = System.getProperty("user.dir") + "//test.txt";
+		File f = new File(file);
+		//FileInputStream fs = new FileInputStream(f);
+		//BufferReader br = new BufferReader();
+		FileReader fr = new FileReader(f);
+		StringBuilder sb = new StringBuilder();
+		int i;
+		while ((i = fr.read()) != -1) {
+			//System.out.println((char)i);
+			sb.append((char)i);
+		}
+		//Print a reverse string
+		System.out.println(sb.reverse());
+	}
+}
